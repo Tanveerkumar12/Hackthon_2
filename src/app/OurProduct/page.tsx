@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const ProductPage = () => {
   return (
@@ -8,11 +7,11 @@ const ProductPage = () => {
       {/* Main Product Banner */}
       <div>
         <Image
-          src={"/images/product.png"}
-          alt="product"
+          src={"/images/OurProduct.png"}
+          alt="OurProduct"
           width={1440}
-          height={316}
-          className="w-full h-auto mt-20"
+          height={318}
+          className="w-full h-auto mt-18"
         />
       </div>
 
